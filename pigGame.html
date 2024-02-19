@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./pigGame.css">
+    <title>Pig Game Project</title>
+</head>
+
+<body>
+    <div class="tableContainer">
+        <div class="gameContainer">
+            
+            <div class="containerPlayer1">
+                <div class="container1">
+                    <div class="player-0" >Player 1</div>
+                    <div id="totalScore-0">0</div>
+                </div>
+                <div class="container2">
+                    <div id="currentScoreText">Current Score</div>
+                    <div id="currentScore-0">0</div>
+                </div>
+            </div>
+
+
+
+            <div class="containerButton">
+               <button id="startGame" onclick="startGame()">Start Game</button>
+               <img src="dice-6.png"
+                class="dice" />
+               <button id="rollDice" onclick="playGame()">Roll Dice</button>
+               <button id="hold" onclick="holdP()">Hold</button>
+            </div>
+
+
+            <div class="containerPlayer2">
+                <div class="container1">
+                    <div class="player-1" >Player 2</div>
+                    <div id="totalScore-1">0</div>
+                </div>
+                <div class="container2">
+                     <div id="currentScoreText">Current Score</div>
+                    <div id="currentScore-1">0</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+<script src="./pigGame.js"></script>
+</body>
+
+
+
+</html>
